@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset='utf-8'>
+	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+	<title>Page Title</title>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+	<link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
+	<link rel="stylesheet" href="../css/main.css">
+
+</head>
+
+<body>
+	<div class="navbar-box padding-top-bottom">
+		<div class="hamburger-toggle a" id="hamburger">
+			<div class="bar1"></div>
+			<div class="bar2"></div>
+			<div class="bar3"></div>
+		</div>
+		<div class="navbar-inside">
+			<div class="navbar-grid">
+				<div class="navbar-item">
+					<a href="../index.html">Logo</a>
+				</div>
+				<div class="navbar-item text-center">
+					<ul>
+						<a href="../index.html">home</a>
+						<a href="../project.html">project</a>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-login">
+	<form name="myForm" id="myForm" action="login.html" onsubmit="return validateForm()">
+		<fieldset>
+			<legend>Register</legend>
+			<span></span> <br>
+			<span id="errormsg"></span> <br>
+			<div class="container">
+				<div>
+					First name*:
+					<input type="text" name="firstname">
+				</div>
+				<div>
+					Last name*:
+					<input type="text" name="lastname" required>
+				</div>
+				<div class="gender">
+					Gender*:
+					<div>
+						Male<br/>
+						<input type="radio" name="gender" value="male" required/>
+					</div>
+					<div>
+						Female
+						<br/>
+						<input type="radio" name="gender" value="female"/>
+					</div>
+					<div>
+						Other
+						<br/>
+						<input type="radio" name="gender" value="Other"/>
+					</div>
+				</div>
+				<div>
+					Birthday*:
+					<input type="date" name="bday" value="" required>
+				</div>
+				<div>
+					Email address*:
+					<input type="email" name="email" required>
+				</div>
+				<div>
+					Username*:
+					<input type="text" name="username" required>
+				</div>
+				<div>
+					Password*:
+					<input type="password" name="password" required>
+				</div>
+				<div>
+					Retype Password*:
+					<input type="password" name="retypepassword" required>
+				</div>
+				<div>
+					<input type="submit" value="Register">
+					<input type="reset" value="Reset">
+				</div>
+			</div>
+		</fieldset>
+	</form>
+</div>
+<script src="./register.js"></script>
+
+</body>
+
+</html>

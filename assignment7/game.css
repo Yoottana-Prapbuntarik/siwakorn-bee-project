@@ -1,0 +1,65 @@
+#squares-container {
+	margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#squares-layer {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    border-radius: 15px;
+    border: 3px solid black;
+    background: #333333;
+}
+fieldset{
+    margin-top: 90px;
+    color: #333;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+fieldset input{
+    border-radius: 15px;
+    padding: 5px 15px;
+    border: 2px dotted red;
+    outline: none !important;
+}
+fieldset input:hover{
+    transition: 1s;
+    background:orange;
+    color: #fff;
+    border: 2px solid red;
+}
+fieldset select{
+    border-radius: 15px;
+    padding: 5px 15px;
+    border: 2px solid green;
+    outline: none !important;
+}
+fieldset button{
+    border-radius: 15px;
+    padding: 5px 15px;
+    border: 2px solid blue;
+    outline: none !important;
+}
+
+.square {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border: 3px solid black;
+}
+
+.red{
+    background-color: red; 
+}
+.blue{
+    background-color: blue; 
+}
+
+.green{
+    background-color: green; 
+}

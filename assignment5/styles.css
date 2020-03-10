@@ -1,0 +1,59 @@
+body {
+    background-color: aliceblue;
+}
+/* div {
+    width: 300px;
+    border: 15px aliceblue;
+    padding: 50px;
+    margin: auto;
+} */
+.container-body{
+    width: 80%;
+    margin: 150px auto;
+}
+textarea{
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+#post1,#reply1,#reply2{
+    padding: 20px 20px;
+    text-align: center;
+}
+.button-group{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+.button-group button{
+    width: 10%;
+    padding: 20px 15px;
+    background: none;
+    border: 1px solid #683aff;
+    color: #000;
+    border-radius: 15px;
+    margin-top: 15px;
+    outline: none;
+    cursor: pointer;
+}
+hr {
+    width: auto;
+    height: 10px;
+    background-color: rgb(168, 196, 255);
+}
+
+button {
+    color: black;
+}
+@media only screen and (max-width:991.98px){
+    .button-group button{
+        width: 100%;
+        padding: 15px 15px;
+        background: none;
+        border: 1px solid #683aff;
+        color: #000;
+        border-radius: 15px;
+        outline: none;
+        cursor: pointer;
+    }
+}

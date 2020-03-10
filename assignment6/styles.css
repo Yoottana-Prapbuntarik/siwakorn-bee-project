@@ -1,0 +1,31 @@
+form input{
+    width: 90%;
+    background: none;
+    border: 1px solid #000;
+    border-radius: 25px;
+    padding: 5px;
+    margin: 15px;
+    box-shadow: 0px 3px 12px 1px rgba(0,0,0,0.24);
+}
+.gender input{
+    box-shadow: none !important;
+}
+.container{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.btn input{
+    width: 50%;
+    display: block;
+    text-align: center;
+    margin: 15px auto;
+}
+.container-login{
+    width: 100%;
+    margin-top: 120px;
+}
+@media only screen and (max-width:1200px){
+    .container{
+        grid-template-columns: 1fr;
+    }
+}
